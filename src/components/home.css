@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+.custom-navbar {
+    background-color: #191970; /* Midnight Navy */
+  }
+  
+  .logo {
+    color: #D4AF37;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .nav-link.custom-link {
+    color: #D4AF37 !important;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link.custom-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #D4AF37;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link.custom-link:hover::after {
+    width: 100%;
+  }
+  
+  .info-div{
+    height: 3000 px;
+    /* display: flex; */
+    /* align-items: center; */
+
+  }
+
+.light-text{
+  color:#ffff;
+}
+  .dark-text{
+    color:#2E2E3A;
+  }
+
+  h1,h2{
+    color:#D4AF37;
+  }
+ 
+  #socials {
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    align-items: center;    /* center them horizontally */
+    padding: 50px;
+    height: 75vh;
+    background-color: #d0d0d0;
+  }
+#downloadButton{
+  border: 2px solid #B08D57;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:#1B2452;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+} 
+#downloadButton:hover{
+  background-color: #B08D57;
+} 

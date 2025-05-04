@@ -1,0 +1,45 @@
+body {
+  background-color: #f0f2f5;
+}
+.register-container {
+    max-width: 600px;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+  }
+  
+  .code-list {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+  }
+  
+  li{
+    color:#2E2E3A;
+  }
+
+.background {
+  background-color:#1B2452 ;
+  }
+  
+  .text {
+    color: #D4AF37 ;
+  }
+.secondary-border{
+  border: 3px solid #B08D57;
+}
+
+.light-text{
+  color:#ffff;
+}
+
+.dark-text{
+  color:#2E2E3A;
+}
+
