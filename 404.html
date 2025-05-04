@@ -7,8 +7,11 @@
   </head>
   <body>
     <script>
-      // Redirect to index.html to handle React Router routing
-      window.location.replace(window.location.pathname + ".html");
+      // Check if the URL doesn't already end with .html
+      if (!window.location.pathname.endsWith('.html')) {
+        // Redirect to the URL with .html appended to it
+        window.location.replace(window.location.pathname + ".html");
+      }
     </script>
   </body>
 </html>

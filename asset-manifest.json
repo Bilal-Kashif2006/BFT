@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/BFT/static/css/main.25b7374e.css",
-    "main.js": "/BFT/static/js/main.5c4e0c6d.js",
+    "main.js": "/BFT/static/js/main.5012dc82.js",
+    "static/js/453.8ab44547.chunk.js": "/BFT/static/js/453.8ab44547.chunk.js",
     "static/media/social.jpeg": "/BFT/static/media/social.7d9298887af734b0de71.jpeg",
     "static/media/logo.svg": "/BFT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/BFT/index.html",
     "main.25b7374e.css.map": "/BFT/static/css/main.25b7374e.css.map",
-    "main.5c4e0c6d.js.map": "/BFT/static/js/main.5c4e0c6d.js.map"
+    "main.5012dc82.js.map": "/BFT/static/js/main.5012dc82.js.map",
+    "453.8ab44547.chunk.js.map": "/BFT/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25b7374e.css",
-    "static/js/main.5c4e0c6d.js"
+    "static/js/main.5012dc82.js"
   ]
 }
